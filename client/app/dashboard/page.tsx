@@ -1,14 +1,1 @@
-import DashboardLayout from "@/components/layout/DashboardLayout"
-
-
-const page = () => {
-  return (
-    <div>
-      <DashboardLayout>
-        Dashboaed
-      </DashboardLayout>
-    </div>
-  )
-}
-
-export default page
+<h1 className="text-2xl font-bold">Dashboard</h1>
