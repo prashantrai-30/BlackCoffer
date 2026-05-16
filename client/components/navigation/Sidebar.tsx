@@ -14,7 +14,7 @@ type SidebarProps = {
 };
 
 const Sidebar = ({ activeItem = "Overview", title = "Insight Dashboard" }: SidebarProps) => (
-  <div className="flex h-full flex-col">
+  <div className="flex h-full min-h-0 flex-col">
     <div className="border-b border-slate-200 px-6 py-5">
       <div className="text-base font-semibold uppercase tracking-wide text-slate-700">
         {title}
